@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kai's Research Portfolio · 房宇航的产品分析作品集</title>
+  <meta name="description" content="基于 Research OS 可审计研究流程完成的 30 份核心深度调研与产品分析作品集，覆盖 AI 行业、产品 PMF、竞品分析与职业方向探索。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --bg: #faf9f7;
+  --bg-2: #f5f4f0;
+  --surface: #ffffff;
+  --ink: #111110;
+  --ink-2: #4a4a46;
+  --ink-3: #8a8984;
+  --rule: #e8e6e1;
+  --rule-2: #d4d2cc;
+  --accent: #d97757;
+  --accent-hover: #c56a4d;
+  --accent-soft: #f3e9e4;
+  --green: #788c5d;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 2px rgba(17,17,16,0.04), 0 8px 24px rgba(17,17,16,0.06);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+.sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+/* Header */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule);
+  padding: 96px 24px 72px;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--ink);
+}
+header .subtitle {
+  font-size: 1.15rem;
+  color: var(--ink-2);
+  max-width: 620px;
+  margin: 0 auto 32px;
+}
+header .meta {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  background: var(--bg-2);
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--rule);
+}
+
+/* Container */
+.container { max-width: 1120px; margin: 0 auto; padding: 56px 24px 96px; }
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.stat {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  padding: 24px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.stat .number {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1;
+}
+.stat .label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-3);
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 40px;
+}
+.search-wrap { position: relative; }
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-3);
+  font-size: 1rem;
+}
+#search {
+  width: 100%;
+  padding: 14px 16px 14px 44px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule-2);
+  border-radius: var(--radius-sm);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+#search:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+#search::placeholder { color: var(--ink-3); }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filter {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink-2);
+  background: transparent;
+  border: 1px solid var(--rule-2);
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.filter:hover { border-color: var(--ink-3); color: var(--ink); }
+.filter.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* Section titles */
+.section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 48px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.section-title .count {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 26px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: var(--rule-2);
+}
+.card .category {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.card h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+.card .summary {
+  font-size: 0.92rem;
+  color: var(--ink-2);
+  line-height: 1.55;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card .footer-meta {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  color: var(--ink-3);
+}
+.card .read {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-weight: 600;
+  transition: gap 0.2s;
+}
+.card:hover .read { gap: 8px; }
+
+.empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--ink-3);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+
+/* Modal */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(17,17,16,0.55);
+  backdrop-filter: blur(4px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  padding: 24px;
+}
+.overlay.active { display: flex; }
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  width: 100%;
+  max-width: 880px;
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 60px rgba(17,17,16,0.18);
+}
+.modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.modal-header h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.modal-header button {
+  background: transparent;
+  border: none;
+  color: var(--ink-3);
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+  transition: color 0.2s;
+}
+.modal-header button:hover { color: var(--ink); }
+.modal-body {
+  padding: 28px 32px;
+  overflow-y: auto;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--ink-2);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.modal-body.loading { font-style: italic; color: var(--ink-3); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 48px 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-3);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+}
+footer a { color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--rule-2); }
+footer a:hover { color: var(--accent); border-color: var(--accent); }
+
+@media (max-width: 640px) {
+  .stats { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; }
+  header { padding: 64px 20px 48px; }
+  .container { padding: 36px 20px 64px; }
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>Kai's Research Portfolio</h1>
+    <p class="subtitle">基于 <span class="sans" style="font-weight:600;">Research OS</span> 可审计研究流程完成的深度调研与产品分析作品集。每份报告均遵循「假设—证据—反方审计—结论回链」的方法论。</p>
+    <div class="meta">
+      <span>房宇航 · 南京信息工程大学 · 物理学（师范）</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="stats">
+      <div class="stat"><div class="number">30</div><div class="label">核心报告</div></div>
+      <div class="stat"><div class="number">3.3万</div><div class="label">总字数</div></div>
+      <div class="stat"><div class="number">2</div><div class="label">研究维度</div></div>
+    </div>
+
+    <div class="controls">
+      <div class="search-wrap">
+        <span class="search-icon">🔎</span>
+        <input type="text" id="search" placeholder="搜索报告标题、摘要或关键词…">
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="all">全部</button>
+        <button class="filter" data-category="项目研究">项目研究</button><button class="filter" data-category="收件箱研究">收件箱研究</button>
+      </div>
+    </div>
+
+    <div id="content"></div>
+    <div class="empty" id="empty" style="display:none">没有找到匹配的报告</div>
+  </main>
+
+  <footer>
+    由 <a href="mailto:3166831387@qq.com">房宇航（Kai）</a> 维护 · 使用 Research OS 生成 · 持续更新
+  </footer>
+
+  <div class="overlay" id="overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modalTitle">报告原文</h2>
+        <button onclick="closeModal()" aria-label="关闭">&times;</button>
+      </div>
+      <div class="modal-body loading" id="modalBody">正在加载原文…</div>
+    </div>
+  </div>
+
+  <script>
+    const reports = [{"title": "AWS Summit Top20 深度调研与评估数据包", "word_count": 40733, "category": "收件箱研究", "file": "AWS Summit Top20 深度调研与评估数据包.md", "display_summary": ""}, {"title": "南芥智能×房宇航-PM职业匹配分析报告", "word_count": 24813, "category": "项目研究", "file": "南芥智能×房宇航-PM职业匹配分析报告.md", "display_summary": ""}, {"title": "2026-05-26-职业世界观AI融合第一性原理调研", "word_count": 23393, "category": "项目研究", "file": "2026-05-26-职业世界观AI融合第一性原理调研.md", "display_summary": ""}, {"title": "Bonjour×房宇航-PM职业匹配分析报告", "word_count": 19350, "category": "项目研究", "file": "Bonjour×房宇航-PM职业匹配分析报告.md", "display_summary": ""}, {"title": "AIBP vs FDE vs AI产品岗 深度调研报告", "word_count": 19239, "category": "收件箱研究", "file": "AIBP vs FDE vs AI产品岗 深度调研报告.md", "display_summary": ""}, {"title": "06-产品第一性原理拆解", "word_count": 15847, "category": "项目研究", "file": "06-产品第一性原理拆解.md", "display_summary": ""}, {"title": "南芥智能深度调研-第一性原理Agent集群报告", "word_count": 13749, "category": "项目研究", "file": "南芥智能深度调研-第一性原理Agent集群报告.md", "display_summary": ""}, {"title": "群体智能-第一性原理商业分析", "word_count": 13500, "category": "项目研究", "file": "群体智能-第一性原理商业分析.md", "display_summary": ""}, {"title": "Dify-PMF第一性原理分析", "word_count": 11807, "category": "项目研究", "file": "Dify-PMF第一性原理分析.md", "display_summary": ""}, {"title": "Kimi额度不透明深度分析", "word_count": 11212, "category": "项目研究", "file": "Kimi额度不透明深度分析.md", "display_summary": ""}, {"title": "Coze-PMF第一性原理分析", "word_count": 11004, "category": "项目研究", "file": "Coze-PMF第一性原理分析.md", "display_summary": ""}, {"title": "Bonjour深度调研-第一性原理Agent集群报告", "word_count": 10647, "category": "项目研究", "file": "Bonjour深度调研-第一性原理Agent集群报告.md", "display_summary": ""}, {"title": "Lovable PMF 分析盲区验证", "word_count": 10581, "category": "项目研究", "file": "Lovable-PMF盲区验证-202605.md", "display_summary": ""}, {"title": "05-深度调研报告-五层分析", "word_count": 10201, "category": "项目研究", "file": "05-深度调研报告-五层分析.md", "display_summary": ""}, {"title": "中国具身智能人形机器人赛道竞品调研", "word_count": 9845, "category": "项目研究", "file": "中国具身智能人形机器人赛道竞品调研.md", "display_summary": ""}, {"title": "Dify-vs-Coze-竞品深度对比", "word_count": 8865, "category": "项目研究", "file": "Dify-vs-Coze-竞品深度对比.md", "display_summary": ""}, {"title": "Kimi产品与B端客户深度分析", "word_count": 8336, "category": "项目研究", "file": "Kimi产品与B端客户深度分析.md", "display_summary": ""}, {"title": "具身智能赛道深度研究", "word_count": 8205, "category": "项目研究", "file": "具身智能赛道深度研究.md", "display_summary": ""}, {"title": "南芥智能-公开数据深度调研报告", "word_count": 7251, "category": "项目研究", "file": "南芥智能-公开数据深度调研报告.md", "display_summary": ""}, {"title": "AI产品降低使用门槛：全网深度调研", "word_count": 7044, "category": "项目研究", "file": "AI产品降低使用门槛—全网深度调研.md", "display_summary": ""}, {"title": "Anthropic创业历程深度分析", "word_count": 6502, "category": "项目研究", "file": "Anthropic创业历程深度分析.md", "display_summary": ""}, {"title": "Bonjour数字名片-第一性原理PMF深度调研", "word_count": 5835, "category": "项目研究", "file": "Bonjour数字名片-第一性原理PMF深度调研.md", "display_summary": ""}, {"title": "AI行业赛道全景图", "word_count": 5810, "category": "项目研究", "file": "AI行业赛道全景图.md", "display_summary": ""}, {"title": "03-度小满PMF分析", "word_count": 4552, "category": "项目研究", "file": "03-度小满PMF分析.md", "display_summary": ""}, {"title": "Cherry Studio 深度调研报告", "word_count": 4319, "category": "收件箱研究", "file": "Cherry-Studio-深度调研报告.md", "display_summary": ""}, {"title": "AI行业积累时间线与面试叙事", "word_count": 4013, "category": "收件箱研究", "file": "AI行业积累时间线与面试叙事.md", "display_summary": ""}, {"title": "Vibe Coding PMF Canvas · Lovable深度解剖", "word_count": 3823, "category": "项目研究", "file": "Vibe-Coding-PMF-Canvas-Lovable深度解剖.md", "display_summary": ""}, {"title": "竞品扫描：大学生就业迷茫赛道现有解决方案分析", "word_count": 3329, "category": "项目研究", "file": "竞品扫描：大学生就业迷茫赛道现有解决方案分析.md", "display_summary": ""}, {"title": "AI游戏生成赛道调研-公司对比表", "word_count": 3309, "category": "项目研究", "file": "AI游戏生成赛道调研-公司对比表.md", "display_summary": ""}, {"title": "面试交付物1-竞品融资调研表格", "word_count": 3133, "category": "项目研究", "file": "面试交付物1-竞品融资调研表格.md", "display_summary": ""}];
+    const contentEl = document.getElementById('content');
+    const emptyEl = document.getElementById('empty');
+    const searchInput = document.getElementById('search');
+    const filterBtns = document.querySelectorAll('.filter');
+    let currentCategory = 'all';
+
+    function escapeHtml(s) {
+      return s.replace(/[&<>"']/g, c =>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function render() {
+      const q = searchInput.value.trim().toLowerCase();
+      const filtered = reports.filter(r => {
+        const matchCat = currentCategory === 'all' || r.category === currentCategory;
+        const matchQ = !q || r.title.toLowerCase().includes(q) || (r.summary || '').toLowerCase().includes(q);
+        return matchCat && matchQ;
+      });
+
+      if (filtered.length === 0) {
+        contentEl.innerHTML = '';
+        emptyEl.style.display = 'block';
+        return;
+      }
+      emptyEl.style.display = 'none';
+
+      // 按分类分组
+      const groups = {};
+      for (const r of filtered) {
+        groups[r.category] = groups[r.category] || [];
+        groups[r.category].push(r);
+      }
+
+      let html = '';
+      for (const cat of ["项目研究", "收件箱研究"]) {
+        const items = groups[cat];
+        if (!items) continue;
+        html += `<h2 class="section-title"><span>${escapeHtml(cat)}</span><span class="count">${items.length} 份</span></h2>`;
+        html += '<div class="grid">';
+        for (const r of items) {
+          const safeTitle = escapeHtml(r.title).replace(/'/g, "&#39;");
+          html += '<article class="card" onclick="openReport('' + encodeURIComponent(r.file) + '', '' + safeTitle + '')">' +
+            '<div class="category">' + escapeHtml(r.category) + '</div>' +
+            '<h3>' + escapeHtml(r.title) + '</h3>' +
+            '<p class="summary">' + escapeHtml((r.display_summary || r.summary || '').slice(0, 220)) + '</p>' +
+            '<div class="footer-meta">' +
+              '<span>' + r.word_count.toLocaleString() + ' 字</span>' +
+              '<span class="read">阅读全文 →</span>' +
+            '</div>' +
+          '</article>';
+        }
+        html += '</div>';
+      }
+      contentEl.innerHTML = html;
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentCategory = btn.dataset.category;
+        render();
+      });
+    });
+
+    searchInput.addEventListener('input', render);
+
+    async function openReport(file, title) {
+      document.getElementById('modalTitle').textContent = title;
+      const body = document.getElementById('modalBody');
+      body.className = 'modal-body loading';
+      body.textContent = '正在加载原文…';
+      document.getElementById('overlay').classList.add('active');
+      try {
+        const res = await fetch('reports/' + file);
+        if (!res.ok) throw new Error('加载失败');
+        const text = await res.text();
+        body.className = 'modal-body';
+        body.textContent = text;
+      } catch (e) {
+        body.className = 'modal-body';
+        body.textContent = '加载失败，请稍后刷新页面重试。';
+      }
+    }
+
+    function closeModal() {
+      document.getElementById('overlay').classList.remove('active');
+    }
+
+    document.getElementById('overlay').addEventListener('click', e => {
+      if (e.target.id === 'overlay') closeModal();
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    render();
+  </script>
+</body>
+</html>
