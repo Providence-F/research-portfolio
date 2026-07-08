@@ -1,0 +1,335 @@
+[
+  {
+    "title": "AWS Summit 297 展商秋招地图项目复盘：从踩坑到深度调研工作流",
+    "summary": "日期：2026-06-25",
+    "category": "Research OS 方法论",
+    "path": "09-收件箱\\Research OS 深度调研工作流\\06-参考复盘\\AWS Summit 297 展商秋招地图项目复盘与深度调研工作流.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\Research OS 深度调研工作流\\06-参考复盘\\AWS Summit 297 展商秋招地图项目复盘与深度调研工作流.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "Research OS v0.1：通用深度调研工作流架构与模板清单",
+    "summary": "日期：2026-06-25",
+    "category": "Research OS 方法论",
+    "path": "09-收件箱\\Research OS 深度调研工作流\\01-架构\\Research OS v0.1 通用深度调研工作流架构.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\Research OS 深度调研工作流\\01-架构\\Research OS v0.1 通用深度调研工作流架构.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "2. 需求倒推：谁被卡住了？",
+    "summary": "Coze PMF 第一性原理分析报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Coze\\Coze-PMF第一性原理分析.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Coze\\Coze-PMF第一性原理分析.md",
+    "tags": "[case-study, ai, product, management]",
+    "updated": "2026-06-02"
+  },
+  {
+    "title": "2. 需求倒推：谁被卡住了？",
+    "summary": "Dify PMF 第一性原理分析报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Dify\\Dify-PMF第一性原理分析.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Dify\\Dify-PMF第一性原理分析.md",
+    "tags": "[case-study, ai, product, management]",
+    "updated": "2026-06-02"
+  },
+  {
+    "title": "2. 需求本质：为什么需要多Agent协同？",
+    "summary": "群体智能 / Agent编排协作 — 第一性原理商业分析",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\南芥智能\\群体智能-第一性原理商业分析.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\南芥智能\\群体智能-第一性原理商业分析.md",
+    "tags": "[case-study, ai, entrepreneurship]",
+    "updated": "2026-06-02"
+  },
+  {
+    "title": "一、公司概况",
+    "summary": "度小满金融 PMF分析",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\度小满\\03-度小满PMF分析.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\度小满\\03-度小满PMF分析.md",
+    "tags": "[ai, career-strategy, content-creation, entrepreneurship, product-management]",
+    "updated": "2026-06-09"
+  },
+  {
+    "title": "一、执行摘要",
+    "summary": "Bonjour 深度调研 · 第一性原理Agent集群报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour深度调研-第一性原理Agent集群报告.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour深度调研-第一性原理Agent集群报告.md",
+    "tags": "[case-study, ai, product, management]",
+    "updated": "2026-05-29"
+  },
+  {
+    "title": "一、执行摘要",
+    "summary": "南芥智能深度调研 · 第一性原理Agent集群报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能深度调研-第一性原理Agent集群报告.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能深度调研-第一性原理Agent集群报告.md",
+    "tags": "[case-study, ai, entrepreneurship]",
+    "updated": "2026-06-02"
+  },
+  {
+    "title": "一、需求倒推：先忘记产品，回到人",
+    "summary": "Lovable PMF 分析：从第一性原理出发（完整版）",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Lovable\\2026-05-24-Lovable-PMF分析完整版.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Lovable\\2026-05-24-Lovable-PMF分析完整版.md",
+    "tags": "[case-study, ai, product, management]",
+    "updated": "2026-05-24"
+  },
+  {
+    "title": "二、产品的最小价值交付单元",
+    "summary": "度小满产品第一性原理拆解",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\度小满\\06-产品第一性原理拆解.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\度小满\\06-产品第一性原理拆解.md",
+    "tags": "[ai, career-strategy, cognition, content-creation, product-management]",
+    "updated": "2026-06-09"
+  },
+  {
+    "title": "二、公司全景",
+    "summary": "Bonjour × 房宇航 PM职业匹配分析报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour×房宇航-PM职业匹配分析报告.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour×房宇航-PM职业匹配分析报告.md",
+    "tags": "[case-study, ai, career, strategy]",
+    "updated": "2026-05-29"
+  },
+  {
+    "title": "二、公司全景",
+    "summary": "南芥智能 × 房宇航 PM职业匹配分析报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能×房宇航-PM职业匹配分析报告.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能×房宇航-PM职业匹配分析报告.md",
+    "tags": "[case-study, ai, career, strategy]",
+    "updated": "2026-06-02"
+  },
+  {
+    "title": "二、公司工商注册信息（⭐⭐⭐⭐⭐ 实证）",
+    "summary": "南芥智能 · 公开数据深度调研报告",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能-公开数据深度调研报告.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\南芥智能\\南芥智能-公开数据深度调研报告.md",
+    "tags": "[case-study, ai, entrepreneurship]",
+    "updated": "2026-06-03"
+  },
+  {
+    "title": "第一部分：产品形态修正——Bonjour到底是什么？",
+    "summary": "Bonjour 数字名片 — 第一性原理 PMF 深度调研（修订版）",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour数字名片-第一性原理PMF深度调研.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Bonjour\\Bonjour数字名片-第一性原理PMF深度调研.md",
+    "tags": "[case-study, ai, product, management]",
+    "updated": "2026-05-29"
+  },
+  {
+    "title": "第二层：AI产品矩阵",
+    "summary": "度小满深度调研报告 — 五层分析",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\度小满\\05-深度调研报告-五层分析.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\度小满\\05-深度调研报告-五层分析.md",
+    "tags": "[ai, career-strategy, engineering, strategy]",
+    "updated": "2026-06-09"
+  },
+  {
+    "title": "维度 2：创始人第一性原理与公司阶段",
+    "summary": "Lovable PMF 分析盲区验证（2026年5月）",
+    "category": "公司 / 产品分析",
+    "path": "04-项目\\01-秋招\\意向公司分析\\Lovable\\Lovable-PMF盲区验证-202605.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\04-项目\\01-秋招\\意向公司分析\\Lovable\\Lovable-PMF盲区验证-202605.md",
+    "tags": "[ai, content-creation, engineering, entrepreneurship, product-management]",
+    "updated": "2026-06-09"
+  },
+  {
+    "title": "AMD参访准备 — 给非芯片背景的参访者的一份准备报告",
+    "summary": "> 这是一份**思考型参访准备报告**——回答的不是\"AMD 怎么样\"，而是\"作为非芯片行业背景的参访者，你怎么用这 2 小时参访窗口产出最大长期价值\"。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\AMD参访准备\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\AMD参访准备\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "Kai 下一阶段 AI 产品 / FDE 作品集方向优先级研究",
+    "summary": "- 只看结论：读 §1、§2。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "MemOS 核心记忆机制科普拆解",
+    "summary": "> 这是最终交付给读者看的报告，不是证据矩阵的复制品。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "MemTensor 与 MemOS 产品深度拆解",
+    "summary": "> 这是最终交付给读者看的报告，不是证据矩阵的复制品。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "Mizzen Insight 产品深度拆解报告",
+    "summary": "> 这是一份面向读者的调研报告。证据矩阵、反方审计、来源清单放在附录，主体先回答：Mizzen Insight 是什么、它靠什么成立、哪里不确定、Kai 该怎么用这份判断。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：AMD参访准备",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\AMD参访准备\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\AMD参访准备\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：MemTensor 与 MemOS 产品深度拆解",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：Mizzen Insight 产品深度拆解",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：物理学师范毕业论文选题与导师推荐",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "v0.3 研究执行计划",
+    "summary": "- 项目名：芯片行业第一性原理",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\芯片行业第一性原理\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\芯片行业第一性原理\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "物理学师范毕业论文选题与导师推荐报告",
+    "summary": "> 这份报告不再把问题简化成“哪个导师最好”。真正的问题是：毕业论文在 Kai 当前阶段，到底应该被认真做，还是应该被控制成本地完成。导师选择只是这个判断之后的执行动作。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "研究执行计划",
+    "summary": "| # | 子问题 | 数据源 | 工具 | 期望证据 |",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\01-plan\\research-execution-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\01-plan\\research-execution-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "芯片行业第一性原理 — 从比特到科技行业大图",
+    "summary": "> v1（2026-07-02）。借 AMD 参访准备报告作为锚点，向上溯源（物理本质）向下扩展（科技行业大图）。让非芯片背景的物理学师范 + PM 候选人能建立完整心智模型。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\芯片行业第一性原理\\07-output\\final-report.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\芯片行业第一性原理\\07-output\\final-report.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "> 调研不是为了\"知道更多\"，是为了支持一个决策。先写清楚服务什么决策。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\AMD参访准备\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\AMD参访准备\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "> 调研不是为了\"知道更多\"，是为了支持一个决策。先写清楚服务什么决策。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "把 MemOS 核心记忆机制拆解成非技术背景能看懂的科普报告。重点：可视化（Mermaid 流程图）+ 类比（人脑记忆对应）+ 源码级证据（gh api 读源码片段）+ 横向对比（5 个 AI 记忆开源项目）+ 纵向对比（AI 自身记忆机制 vs MemOS 外挂记忆）。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemOS 核心记忆机制科普拆解\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "> 调研不是为了\"知道更多\"，是为了支持一个决策。先写清楚服务什么决策。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\MemTensor 与 MemOS 产品深度拆解\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "深度拆解 Mizzen Insight 作为 AI 用户研究产品的产品机制、用户、场景、工作流、信效度、差异化、商业模式，产出可面试引用的产品观察和投递优先级判断。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\Mizzen Insight 产品深度拆解\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "把导师/选题 Excel 从“导师推荐表”重新拆成 Kai 的毕业论文投入策略决策：这件事到底该认真做、轻资产化做，还是控制成本完成；在这个判断之后，再选择导师和题目。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\物理学师范毕业论文选题与导师推荐\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  },
+  {
+    "title": "调研方案",
+    "summary": "> 调研不是为了\"知道更多\"，是为了支持一个决策。先写清楚服务什么决策。",
+    "category": "行业 / 专题研究",
+    "path": "09-收件箱\\research-projects\\芯片行业第一性原理\\01-plan\\research-plan.md",
+    "file": "C:\\Users\\19932\\AppData\\Roaming\\TRAE SOLO CN\\ModularData\\ai-agent\\work-mode-projects\\6a4e4c0be3b2016faba335c3\\obsidian-sync\\09-收件箱\\research-projects\\芯片行业第一性原理\\01-plan\\research-plan.md",
+    "tags": "",
+    "updated": ""
+  }
+]

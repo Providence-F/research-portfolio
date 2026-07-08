@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kai's Research Portfolio | 深度调研与产品分析作品集</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --dark: #141413;
+  --light: #faf9f5;
+  --mid-gray: #b0aea5;
+  --light-gray: #e8e6dc;
+  --orange: #d97757;
+  --blue: #6a9bcc;
+  --green: #788c5d;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Lora', Georgia, serif;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.6;
+}
+header {
+  background: var(--dark);
+  color: var(--light);
+  padding: 80px 20px 60px;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+header p {
+  color: var(--mid-gray);
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+.filter-btn {
+  font-family: 'Poppins', Arial, sans-serif;
+  border: 1px solid var(--light-gray);
+  background: #fff;
+  color: var(--dark);
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.filter-btn.active, .filter-btn:hover {
+  background: var(--dark);
+  color: var(--light);
+  border-color: var(--dark);
+}
+.section-title {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--light-gray);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  border: 1px solid var(--light-gray);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(20,20,19,0.06);
+}
+.card-tag {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--orange);
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+.card p {
+  color: #555;
+  font-size: 0.9rem;
+  flex: 1;
+  margin-bottom: 16px;
+}
+.card a {
+  font-family: 'Poppins', Arial, sans-serif;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.card a:hover { text-decoration: underline; }
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--mid-gray);
+  font-size: 0.85rem;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Kai's Research Portfolio</h1>
+  <p>基于 Research OS 可审计研究流程产出的深度调研与产品分析作品集。每份报告均遵循「假设—证据—反方审计—结论回链」的方法论。</p>
+</header>
+<div class="container">
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-filter="all">全部</button>
+    <button class="filter-btn" data-filter="公司 / 产品分析">公司 / 产品分析</button>
+    <button class="filter-btn" data-filter="行业 / 专题研究">行业 / 专题研究</button>
+    <button class="filter-btn" data-filter="Research OS 方法论">Research OS 方法论</button>
+  </div>
+<h2 class="section-title" data-category="Research OS 方法论">Research OS 方法论</h2>
+<div class="grid">
+  <div class="card" data-category="Research OS 方法论">
+    <div class="card-tag">Research OS 方法论</div>
+    <h3>AWS Summit 297 展商秋招地图项目复盘：从踩坑到深度调研工作流</h3>
+    <p>日期：2026-06-25</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/Research%20OS%20%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E5%B7%A5%E4%BD%9C%E6%B5%81/06-%E5%8F%82%E8%80%83%E5%A4%8D%E7%9B%98/AWS%20Summit%20297%20%E5%B1%95%E5%95%86%E7%A7%8B%E6%8B%9B%E5%9C%B0%E5%9B%BE%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98%E4%B8%8E%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E5%B7%A5%E4%BD%9C%E6%B5%81.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="Research OS 方法论">
+    <div class="card-tag">Research OS 方法论</div>
+    <h3>Research OS v0.1：通用深度调研工作流架构与模板清单</h3>
+    <p>日期：2026-06-25</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/Research%20OS%20%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E5%B7%A5%E4%BD%9C%E6%B5%81/01-%E6%9E%B6%E6%9E%84/Research%20OS%20v0.1%20%E9%80%9A%E7%94%A8%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%9E%B6%E6%9E%84.md" target="_blank">阅读完整报告 →</a>
+  </div>
+</div>
+<h2 class="section-title" data-category="公司 / 产品分析">公司 / 产品分析</h2>
+<div class="grid">
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>2. 需求倒推：谁被卡住了？</h3>
+    <p>Coze PMF 第一性原理分析报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Coze/Coze-PMF%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>2. 需求倒推：谁被卡住了？</h3>
+    <p>Dify PMF 第一性原理分析报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Dify/Dify-PMF%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>2. 需求本质：为什么需要多Agent协同？</h3>
+    <p>群体智能 / Agent编排协作 — 第一性原理商业分析</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD/%E7%BE%A4%E4%BD%93%E6%99%BA%E8%83%BD-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E5%95%86%E4%B8%9A%E5%88%86%E6%9E%90.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>一、公司概况</h3>
+    <p>度小满金融 PMF分析</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%BA%A6%E5%B0%8F%E6%BB%A1/03-%E5%BA%A6%E5%B0%8F%E6%BB%A1PMF%E5%88%86%E6%9E%90.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>一、执行摘要</h3>
+    <p>Bonjour 深度调研 · 第一性原理Agent集群报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Bonjour/Bonjour%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86Agent%E9%9B%86%E7%BE%A4%E6%8A%A5%E5%91%8A.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>一、执行摘要</h3>
+    <p>南芥智能深度调研 · 第一性原理Agent集群报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86Agent%E9%9B%86%E7%BE%A4%E6%8A%A5%E5%91%8A.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>一、需求倒推：先忘记产品，回到人</h3>
+    <p>Lovable PMF 分析：从第一性原理出发（完整版）</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Lovable/2026-05-24-Lovable-PMF%E5%88%86%E6%9E%90%E5%AE%8C%E6%95%B4%E7%89%88.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>二、产品的最小价值交付单元</h3>
+    <p>度小满产品第一性原理拆解</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%BA%A6%E5%B0%8F%E6%BB%A1/06-%E4%BA%A7%E5%93%81%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86%E6%8B%86%E8%A7%A3.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>二、公司全景</h3>
+    <p>Bonjour × 房宇航 PM职业匹配分析报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Bonjour/Bonjour%C3%97%E6%88%BF%E5%AE%87%E8%88%AA-PM%E8%81%8C%E4%B8%9A%E5%8C%B9%E9%85%8D%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>二、公司全景</h3>
+    <p>南芥智能 × 房宇航 PM职业匹配分析报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD%C3%97%E6%88%BF%E5%AE%87%E8%88%AA-PM%E8%81%8C%E4%B8%9A%E5%8C%B9%E9%85%8D%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>二、公司工商注册信息（⭐⭐⭐⭐⭐ 实证）</h3>
+    <p>南芥智能 · 公开数据深度调研报告</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD/%E5%8D%97%E8%8A%A5%E6%99%BA%E8%83%BD-%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>第一部分：产品形态修正——Bonjour到底是什么？</h3>
+    <p>Bonjour 数字名片 — 第一性原理 PMF 深度调研（修订版）</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Bonjour/Bonjour%E6%95%B0%E5%AD%97%E5%90%8D%E7%89%87-%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86PMF%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>第二层：AI产品矩阵</h3>
+    <p>度小满深度调研报告 — 五层分析</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/%E5%BA%A6%E5%B0%8F%E6%BB%A1/05-%E6%B7%B1%E5%BA%A6%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A-%E4%BA%94%E5%B1%82%E5%88%86%E6%9E%90.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="公司 / 产品分析">
+    <div class="card-tag">公司 / 产品分析</div>
+    <h3>维度 2：创始人第一性原理与公司阶段</h3>
+    <p>Lovable PMF 分析盲区验证（2026年5月）</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/04-%E9%A1%B9%E7%9B%AE/01-%E7%A7%8B%E6%8B%9B/%E6%84%8F%E5%90%91%E5%85%AC%E5%8F%B8%E5%88%86%E6%9E%90/Lovable/Lovable-PMF%E7%9B%B2%E5%8C%BA%E9%AA%8C%E8%AF%81-202605.md" target="_blank">阅读完整报告 →</a>
+  </div>
+</div>
+<h2 class="section-title" data-category="行业 / 专题研究">行业 / 专题研究</h2>
+<div class="grid">
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>AMD参访准备 — 给非芯片背景的参访者的一份准备报告</h3>
+    <p>> 这是一份**思考型参访准备报告**——回答的不是"AMD 怎么样"，而是"作为非芯片行业背景的参访者，你怎么用这 2 小时参访窗口产出最大长期价值"。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/AMD%E5%8F%82%E8%AE%BF%E5%87%86%E5%A4%87/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>Kai 下一阶段 AI 产品 / FDE 作品集方向优先级研究</h3>
+    <p>- 只看结论：读 §1、§2。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Kai%20%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%20AI%20%E4%BA%A7%E5%93%81%20FDE%20%E4%BD%9C%E5%93%81%E9%9B%86%E6%96%B9%E5%90%91%E4%BC%98%E5%85%88%E7%BA%A7%E7%A0%94%E7%A9%B6/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>MemOS 核心记忆机制科普拆解</h3>
+    <p>> 这是最终交付给读者看的报告，不是证据矩阵的复制品。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemOS%20%E6%A0%B8%E5%BF%83%E8%AE%B0%E5%BF%86%E6%9C%BA%E5%88%B6%E7%A7%91%E6%99%AE%E6%8B%86%E8%A7%A3/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>MemTensor 与 MemOS 产品深度拆解</h3>
+    <p>> 这是最终交付给读者看的报告，不是证据矩阵的复制品。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemTensor%20%E4%B8%8E%20MemOS%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>Mizzen Insight 产品深度拆解报告</h3>
+    <p>> 这是一份面向读者的调研报告。证据矩阵、反方审计、来源清单放在附录，主体先回答：Mizzen Insight 是什么、它靠什么成立、哪里不确定、Kai 该怎么用这份判断。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Mizzen%20Insight%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：AMD参访准备</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/AMD%E5%8F%82%E8%AE%BF%E5%87%86%E5%A4%87/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：Kai 下一阶段 AI 产品 FDE 作品集方向优先级研究</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Kai%20%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%20AI%20%E4%BA%A7%E5%93%81%20FDE%20%E4%BD%9C%E5%93%81%E9%9B%86%E6%96%B9%E5%90%91%E4%BC%98%E5%85%88%E7%BA%A7%E7%A0%94%E7%A9%B6/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：MemTensor 与 MemOS 产品深度拆解</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemTensor%20%E4%B8%8E%20MemOS%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：Mizzen Insight 产品深度拆解</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Mizzen%20Insight%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：物理学师范毕业论文选题与导师推荐</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E7%89%A9%E7%90%86%E5%AD%A6%E5%B8%88%E8%8C%83%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E9%80%89%E9%A2%98%E4%B8%8E%E5%AF%BC%E5%B8%88%E6%8E%A8%E8%8D%90/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>v0.3 研究执行计划</h3>
+    <p>- 项目名：芯片行业第一性原理</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E8%8A%AF%E7%89%87%E8%A1%8C%E4%B8%9A%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>物理学师范毕业论文选题与导师推荐报告</h3>
+    <p>> 这份报告不再把问题简化成“哪个导师最好”。真正的问题是：毕业论文在 Kai 当前阶段，到底应该被认真做，还是应该被控制成本地完成。导师选择只是这个判断之后的执行动作。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E7%89%A9%E7%90%86%E5%AD%A6%E5%B8%88%E8%8C%83%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E9%80%89%E9%A2%98%E4%B8%8E%E5%AF%BC%E5%B8%88%E6%8E%A8%E8%8D%90/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>研究执行计划</h3>
+    <p>| # | 子问题 | 数据源 | 工具 | 期望证据 |</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemOS%20%E6%A0%B8%E5%BF%83%E8%AE%B0%E5%BF%86%E6%9C%BA%E5%88%B6%E7%A7%91%E6%99%AE%E6%8B%86%E8%A7%A3/01-plan/research-execution-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>芯片行业第一性原理 — 从比特到科技行业大图</h3>
+    <p>> v1（2026-07-02）。借 AMD 参访准备报告作为锚点，向上溯源（物理本质）向下扩展（科技行业大图）。让非芯片背景的物理学师范 + PM 候选人能建立完整心智模型。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E8%8A%AF%E7%89%87%E8%A1%8C%E4%B8%9A%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86/07-output/final-report.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>> 调研不是为了"知道更多"，是为了支持一个决策。先写清楚服务什么决策。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/AMD%E5%8F%82%E8%AE%BF%E5%87%86%E5%A4%87/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>> 调研不是为了"知道更多"，是为了支持一个决策。先写清楚服务什么决策。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Kai%20%E4%B8%8B%E4%B8%80%E9%98%B6%E6%AE%B5%20AI%20%E4%BA%A7%E5%93%81%20FDE%20%E4%BD%9C%E5%93%81%E9%9B%86%E6%96%B9%E5%90%91%E4%BC%98%E5%85%88%E7%BA%A7%E7%A0%94%E7%A9%B6/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>把 MemOS 核心记忆机制拆解成非技术背景能看懂的科普报告。重点：可视化（Mermaid 流程图）+ 类比（人脑记忆对应）+ 源码级证据（gh api 读源码片段）+ 横向对比（5 个 AI 记忆开源项目）+ 纵向对比（AI 自身记忆机制 vs MemOS 外挂记忆）。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemOS%20%E6%A0%B8%E5%BF%83%E8%AE%B0%E5%BF%86%E6%9C%BA%E5%88%B6%E7%A7%91%E6%99%AE%E6%8B%86%E8%A7%A3/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>> 调研不是为了"知道更多"，是为了支持一个决策。先写清楚服务什么决策。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/MemTensor%20%E4%B8%8E%20MemOS%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>深度拆解 Mizzen Insight 作为 AI 用户研究产品的产品机制、用户、场景、工作流、信效度、差异化、商业模式，产出可面试引用的产品观察和投递优先级判断。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/Mizzen%20Insight%20%E4%BA%A7%E5%93%81%E6%B7%B1%E5%BA%A6%E6%8B%86%E8%A7%A3/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>把导师/选题 Excel 从“导师推荐表”重新拆成 Kai 的毕业论文投入策略决策：这件事到底该认真做、轻资产化做，还是控制成本完成；在这个判断之后，再选择导师和题目。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E7%89%A9%E7%90%86%E5%AD%A6%E5%B8%88%E8%8C%83%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E9%80%89%E9%A2%98%E4%B8%8E%E5%AF%BC%E5%B8%88%E6%8E%A8%E8%8D%90/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+  <div class="card" data-category="行业 / 专题研究">
+    <div class="card-tag">行业 / 专题研究</div>
+    <h3>调研方案</h3>
+    <p>> 调研不是为了"知道更多"，是为了支持一个决策。先写清楚服务什么决策。</p>
+    <a href="file:///C:/Users/19932/AppData/Roaming/TRAE%20SOLO%20CN/ModularData/ai-agent/work-mode-projects/6a4e4c0be3b2016faba335c3/obsidian-sync/09-%E6%94%B6%E4%BB%B6%E7%AE%B1/research-projects/%E8%8A%AF%E7%89%87%E8%A1%8C%E4%B8%9A%E7%AC%AC%E4%B8%80%E6%80%A7%E5%8E%9F%E7%90%86/01-plan/research-plan.md" target="_blank">阅读完整报告 →</a>
+  </div>
+</div>
+</div>
+<footer class="footer">
+  由房宇航（Kai）维护 · 使用 Research OS 生成 · 持续更新
+</footer>
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const cards = document.querySelectorAll('.card');
+const titles = document.querySelectorAll('.section-title');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    cards.forEach(card => {
+      card.style.display = (filter === 'all' || card.dataset.category === filter) ? 'flex' : 'none';
+    });
+    titles.forEach(t => {
+      const visible = Array.from(document.querySelectorAll('.card[data-category="' + t.dataset.category + '"]')).some(c => c.style.display !== 'none');
+      t.style.display = visible ? 'block' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
